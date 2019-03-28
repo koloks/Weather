@@ -26,12 +26,23 @@ The Idea
 The Model Developed
 ========================================================
  
-```{r, results='show'}
+
+```r
 setwd("/Users/koloks/Melbourne_Weather")
 dow<-read.csv("Victorian Energy Compare Data.csv", header=TRUE, stringsAsFactors = FALSE)
 
 
 lm(Total~Weather, data=dow )
+```
+
+```
+
+Call:
+lm(formula = Total ~ Weather, data = dow)
+
+Coefficients:
+(Intercept)      Weather  
+    17.0614       0.8272  
 ```
 
 
