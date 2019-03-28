@@ -1,0 +1,12 @@
+name: Melbourne_Weather
+title: Melbourne_Weather
+username:
+account: spiro-kolokithas
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 820815
+bundleId: 1970724
+url: https://spiro-kolokithas.shinyapps.io/Melbourne_Weather/
+when: 1553781395.69294
+asMultiple: FALSE
+asStatic: FALSE
